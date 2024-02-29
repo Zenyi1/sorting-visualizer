@@ -1,0 +1,50 @@
+.array-container{
+    position: absolute;
+    left: 50px;
+    margin-top: 10px;
+}
+
+.array-bar{
+    width: 0.22em;
+    background-color: #470a97;
+    display: inline-block;
+    margin: 0 1 px;
+    border-bottom: 3px solid black;
+}
+
+.array-container :hover {
+    background-color: #772ce8;
+}
+
+.bottom{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+    margin: 5px;
+    }
+
+.bottom:hover{
+        background-color: #772ce8;
+    }
+.value{
+    position: fixed;
+    top:0;
+    left:0;
+    margin:10px;
+}
+
+.buttons {
+    background-color: #ffffff; /* Set the background color */
+}
+
+.buttons:hover {
+    background-color: #ffffff; /* Keep the background color the same on hover */
+}
